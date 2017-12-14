@@ -1,0 +1,41 @@
+header{background-color: black;
+       color: white;
+       height: 100px;
+       width:100%;
+       position: absolute;
+       top:0;
+       left:0;}
+
+.logo{float:left;
+    font-size: 45px}
+table{clear: left;
+      float: right;}
+
+main{clear: right;
+     background-color: darkorange;
+     width:100%;
+     height: 500px;
+     margin: auto;
+     margin-top: 130px;
+     }
+.main1{background-color: skyblue;
+       float: left;
+       width:70%;
+       height:500px}
+.main2{background-color:lightskyblue;
+       float: left;
+       width:30%;
+       height: 500px;}
+
+footer{clear: left;
+       position: fixed;
+       bottom:0px;
+       left:0px;
+       background-color: black;
+       color:white;
+       height: 70px;
+       width:100%;}
+.etc{text-align: center;
+    height:70px;
+    line-height: 70px;}
+
