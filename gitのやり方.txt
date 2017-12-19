@@ -10,6 +10,6 @@ git config --global user.email"git hub email"
 
 git add --all
 
-git commit -m
+git commit -m@"¡“ú‚Ì“ú•t"
 
 git push
