@@ -1,0 +1,19 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class JavaEX05c03 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		JavaEX05c01 JavaEX05c02 = new JavaEX05c01();
+
+	}
+
+}

@@ -1,0 +1,15 @@
+ウィンドウズキー＋R
+
+cd＋アクセス先
+
+git clone URL
+
+git config --global user.name "git hub accountname"
+
+git config --global user.email"git hub email"
+
+git add --all
+
+git commit -m
+
+git push

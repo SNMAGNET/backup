@@ -1,0 +1,29 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class JavaEX04c02 {
+
+		public String name = null;
+		private int age = 0;
+
+
+		public void setName(String name){
+			this.name=name;}
+
+		public JavaEX04c02(String name,int age){
+
+			this.name = name;
+			this.age = age;
+
+
+
+		}
+
+
+
+	}
