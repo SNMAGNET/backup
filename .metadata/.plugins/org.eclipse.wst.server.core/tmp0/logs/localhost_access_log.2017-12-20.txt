@@ -209,3 +209,5 @@
 0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:14:39 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 200 310
 0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:15:06 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 500 3377
 0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:17:22 +0900] "GET /HelloJSP/ HTTP/1.1" 200 864
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:16:32:36 +0900] "GET /HelloServlet/ HTTP/1.1" 200 353
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:16:32:39 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
