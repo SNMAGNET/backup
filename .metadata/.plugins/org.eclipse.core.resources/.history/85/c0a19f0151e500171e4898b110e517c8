@@ -1,0 +1,45 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	Person Taro = new Person();
+
+
+	 Taro.name = "YAMATARO";
+	 Taro.age = 23;
+
+
+	 System.out.println(Taro.name);
+	 System.out.println(Taro.age);
+
+
+	 Person Nro = new Person();
+
+	 Nro.name = "YAMANRO";
+	 Nro.age = 777777;
+
+	 System.out.println(Nro.name);
+	 System.out.println(Nro.age);
+
+	 Person Shou = new Person();
+
+	 Shou.name = "SHOUTAROU";
+	 Shou.age = 999999;
+
+	 System.out.println(Shou.name);
+	 System.out.println(Shou.age);
+
+	}
+
+}

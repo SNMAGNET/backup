@@ -1,0 +1,13 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class Person {
+	public String name =null;
+	//* nullは”０”、”空”。基礎の型なので初期値はなしとするのが一般的。
+	public int age = 0;
+	}

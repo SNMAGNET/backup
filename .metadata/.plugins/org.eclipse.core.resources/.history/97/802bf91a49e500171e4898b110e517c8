@@ -1,0 +1,17 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class stati_c {
+
+	public static String name=null;
+	public static int age = 0;
+
+	public stati_c(){}
+
+
+}

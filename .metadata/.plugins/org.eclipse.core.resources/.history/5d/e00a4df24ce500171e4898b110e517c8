@@ -1,0 +1,30 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class stati_c_o {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	    stati_c XXX =new stati_c(100, 45);
+	    XXX.what =34;
+	    XXX.age=23;
+	    XXX.what =36767;
+	    XXX.age=47578;
+
+
+	    System.out.println(XXX.what);
+	    System.out.println(XXX.age);
+
+
+
+
+	}
+
+}

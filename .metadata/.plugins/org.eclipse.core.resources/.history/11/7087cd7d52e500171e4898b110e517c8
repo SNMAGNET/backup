@@ -1,0 +1,13 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class Robot {
+
+	Robot name = "null";
+
+}

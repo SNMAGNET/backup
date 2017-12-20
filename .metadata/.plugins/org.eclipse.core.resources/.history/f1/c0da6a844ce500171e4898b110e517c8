@@ -1,0 +1,21 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class stati_c {
+
+	public static int what=0;
+	public int age = 0;
+
+	public stati_c (int what, int age){
+		stati_c.what = what;
+		this.age = age;
+		}
+
+	public stati_c() {}
+
+}
