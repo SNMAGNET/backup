@@ -8,8 +8,8 @@
  */
 public class Mp3Player {
 
-	public void play(){
+	/*public void play(){
 		System.out.println("PLAY");
-	}
+	}*/
 
 }

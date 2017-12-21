@@ -1,7 +1,7 @@
 
 public class SmartPhone extends Mp3Player {
 
-		public void call(){
+		/*public void call(){
 		  System.out.println("CALLING");
 		}
 
@@ -11,6 +11,6 @@ public class SmartPhone extends Mp3Player {
 
 		public void play(){
 			System.out.println("PLAYYYYYYY");
-		}
+		}*/
 
 }

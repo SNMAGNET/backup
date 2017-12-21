@@ -1,0 +1,15 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public interface Phone {
+    public abstract void call();
+    public abstract void mall();
+    public abstract void photo();
+    public abstract void internet();
+
+}
