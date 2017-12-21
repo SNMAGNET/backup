@@ -1,0 +1,13 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class stati_c {
+
+	public static final int what;
+	public int age;
+}
