@@ -1,0 +1,24 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class IPhone {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		SmartPhone IPhone = new SmartPhone();
+
+		IPhone.back();
+		IPhone.call();
+
+
+	}
+
+}

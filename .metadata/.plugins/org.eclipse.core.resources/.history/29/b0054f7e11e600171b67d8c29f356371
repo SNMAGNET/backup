@@ -1,0 +1,15 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class Mp3Player {
+
+	public void start(){
+		System.out.println("再生");
+	}
+
+}

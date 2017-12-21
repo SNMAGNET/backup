@@ -1,0 +1,31 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Person Taro = new Person("YAMATARO",23,530000);
+
+		System.out.println(Taro.name);
+		System.out.println(Taro.age);
+		System.out.println(Taro.SENTOURYOKU);
+
+
+
+		Person Jiro = new Person("YAMAJIRO");
+
+		System.out.println(Jiro.name);
+		System.out.println(Jiro.age);
+		System.out.println(Jiro.SENTOURYOKU);
+
+	}
+
+}

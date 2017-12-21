@@ -1,0 +1,19 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Person Taro = new Person("YAMATARO",23);
+
+	}
+
+}

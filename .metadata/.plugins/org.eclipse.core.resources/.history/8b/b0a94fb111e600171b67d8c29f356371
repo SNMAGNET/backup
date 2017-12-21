@@ -1,0 +1,17 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class SmartPhone extends Mp3Player {
+
+	public void call(){
+		System.out.println("電話");
+	}
+
+
+
+}

@@ -1,0 +1,12 @@
+
+public class SmartPhone {
+
+		public void call(){
+		  System.out.println("CALLING");
+		}
+
+		public void talk(){
+			System.out.println("TALKING");
+		}
+
+}

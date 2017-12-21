@@ -1,0 +1,13 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class SmartPhone extends Mp3Player {
+
+
+
+}

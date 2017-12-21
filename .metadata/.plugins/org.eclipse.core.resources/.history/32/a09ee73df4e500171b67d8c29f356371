@@ -1,0 +1,36 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class Person {
+
+	String name = null;
+	int age = 0;
+	int ASENTOURYOKU = 0;
+
+	public Person(String name,
+			      int age,
+			      int SENTOURYOKU)
+	{
+	this.name = name;
+	this.age = age;
+    ASENTOURYOKU = SENTOURYOKU;
+
+
+
+	}
+
+	public Person(String name)
+{
+this.name = name;
+this.age=0000;
+ASENTOURYOKU=4;
+
+}
+    public void talk(){System.out.println(this.name+"が話す");}
+
+}
