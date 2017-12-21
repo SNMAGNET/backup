@@ -25,6 +25,9 @@ public class Iphone {
 		Iphone.internet();
 		Iphone.fly();
 		Iphone.atack();
+		Iphone.escape();
+		Iphone.ball();
+		Iphone.summon();
 
 	}
 
