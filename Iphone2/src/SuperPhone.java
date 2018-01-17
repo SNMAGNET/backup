@@ -18,7 +18,7 @@ public class SuperPhone extends SmartPhone {
 		System.out.println("にげる");
 	}
 	public void ball(){
-		System.out.println("モ○スターボールを投げる");
+		System.out.println("モンスターボールを投げる");
 	}
 	public void summon(){
 		System.out.println("Dr.ブームを２体召喚する。その雄叫びは発動する。");
