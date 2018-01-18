@@ -75,10 +75,27 @@
 			<p>Login</p>
 		</div>
 		<div>
-			<h3>商品を購入する際にはログインをお願いします。</h3>
+			<h3>商品を購入する際にはログインをお願いします。(半角英数のみ)</h3>
 			<s:form action="LoginAction">
-				<s:textfield name="loginUserId"/>
-				<s:password name="loginPassword"/>
+				<s:textfield name="loginParam"
+				             placeholder="ユーザーID,またはお名前"/>
+				<s:password name="loginPassword"
+				            placeholder="パスワード"/>
+
+<script type="text/javascript">
+<!--
+function checkForm($this)
+{
+    var str=$this.value;
+    while(str.match(/[^A-Z^a-z\d\-]/))
+    {
+        str=str.replace(/[^A-Z^a-z\d\-]/,"");
+    }
+    $this.value=str;
+}
+//-->
+</script>
+
 				<s:submit value="ログイン"/>
 			</s:form>
 			<br/>

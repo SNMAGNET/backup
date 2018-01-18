@@ -8,6 +8,7 @@ public class LoginDTO {
 
 	private String userName;
 
+
 	private boolean loginFlg = false;
 
 	public String getLoginId() {

@@ -17,8 +17,10 @@ public class UserCreateCompleteDAO {
 
 	private String sql = "INSERT INTO login_user_transaction (login_id, login_pass, user_name, insert_date) VALUES(?, ? ,?, ?)";
 
-	public void cerateUser(String loginUserId, String loginUserPassword, String userName) throws SQLException {
+	public int cerateUser(String loginUserId, String loginUserPassword, String userName) throws SQLException {
 
+
+		int i = 0;
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, loginUserId);
@@ -26,12 +28,13 @@ public class UserCreateCompleteDAO {
 			preparedStatement.setString(3, userName);
 			preparedStatement.setString(4, dateUtil.getDate());
 
-			preparedStatement.execute();
+			i= preparedStatement.executeUpdate();
 
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
 			connection.close();
 		}
+		return i;
 	}
 }

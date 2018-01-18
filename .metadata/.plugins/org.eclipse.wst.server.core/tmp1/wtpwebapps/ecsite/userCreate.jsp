@@ -90,6 +90,19 @@
 						<input type="text" name="loginPassword" value="" />
 					</td>
 				</tr>
+<script type="text/javascript">
+<!--
+function checkForm($this)
+{
+    var str=$this.value;
+    while(str.match(/[^A-Z^a-z\d\-]/))
+    {
+        str=str.replace(/[^A-Z^a-z\d\-]/,"");
+    }
+    $this.value=str;
+}
+//-->
+</script>
 				<tr>
 					<td>
 						<label>ユーザー名:</label>

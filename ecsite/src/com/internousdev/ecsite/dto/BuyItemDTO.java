@@ -2,7 +2,7 @@ package com.internousdev.ecsite.dto;
 
 public class BuyItemDTO {
 
-	public int id;
+	private int id;
 
 	public String itemName;
 
