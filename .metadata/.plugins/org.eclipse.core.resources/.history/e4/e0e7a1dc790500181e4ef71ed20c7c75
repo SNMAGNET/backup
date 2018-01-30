@@ -1,0 +1,8 @@
+package com.internousdev.supershop.util;
+
+
+import java.sql.Connection;
+
+public class DBConnector {
+
+}

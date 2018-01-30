@@ -27,7 +27,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 
 		String result = SUCCESS;
 
-		if(!(loginUserId.equals("")) && !(loginPassword.equals("")) && !(userName.equals(""))) {
+		if(!(loginUserId.equals(null)) && !(loginPassword.equals(null)) && !(userName.equals(null))) {
 			session.put("loginUserId", loginUserId);
 			session.put("loginPassword", loginPassword);
 			session.put("userName", userName);

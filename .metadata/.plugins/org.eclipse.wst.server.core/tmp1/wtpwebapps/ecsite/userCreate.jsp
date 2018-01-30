@@ -14,50 +14,7 @@
 	<meta name="keywords" content="" />
 	<meta charset="utf-8">
 	<title>UserCreate画面</title>
-	<style type="text/css">
-		/* ========TAG LAYOUT======== */
-		body {
-		   margin:0;
-		   padding:0;
-		   line-height:1.6;
-		   letter-spacing:1px;
-		   font-family:Verdana, Helvetica, sans-serif;
-		   font-size:12px;
-		   color:#333;
-		   background:#fff;
-		}
 
-		table {
-			text-align:center;
-			margin:0 auto;
-		}
-
-		/* ========ID LAYOUT======== */
-		#top {
-		   width:780px;
-		   margin:30px auto;
-		   border:1px solid #333;
-		}
-
-		#header {
-		   width: 100%;
-		   height: 80px;
-		   background-color: black;
-		}
-
-		#main {
-		   width: 100%;
-		   height: 500px;
-		   text-align: center;
-		}
-
-		#footer {
-			width: 100%;
-			height: 80px;
-			background-color: black;
-			clear:both;
-		}
-	</style>
 </head>
 <body>
 	<div id="header">
@@ -79,7 +36,7 @@
 						<label>ログインID:</label>
 					</td>
 					<td>
-						<input type="text" name="loginUserId" value="" />
+						<input type="text" name="loginUserId" value=null />
 					</td>
 				</tr>
 				<tr>
@@ -87,28 +44,16 @@
 						<label>ログインPASS:</label>
 					</td>
 					<td>
-						<input type="text" name="loginPassword" value="" />
+						<input type="text" name="loginPassword" value=null />
 					</td>
 				</tr>
-<script type="text/javascript">
-<!--
-function checkForm($this)
-{
-    var str=$this.value;
-    while(str.match(/[^A-Z^a-z\d\-]/))
-    {
-        str=str.replace(/[^A-Z^a-z\d\-]/,"");
-    }
-    $this.value=str;
-}
-//-->
-</script>
+
 				<tr>
 					<td>
 						<label>ユーザー名:</label>
 					</td>
 					<td>
-						<input type="text" name="userName" value="" />
+						<input type="text" name="userName" value=null />
 					</td>
 				</tr>
 				<s:submit value="登録"/>
