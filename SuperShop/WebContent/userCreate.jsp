@@ -43,14 +43,14 @@
                           escape="false"/>
               </s:if>
               <table>
-                    <s:form action="UserCreateConfirmActon">
+                    <s:form action="UserCreateConfirmAction">
                         <tr>
                            <td>
                               <label>ログインID:</label>
                            </td>
                            <td>
-                              <input pattern="[A-Za-z]{8,}"
-                                     title="8文字以上の半角英数のみ入力可能です"
+                              <input pattern="^([0-9A-Za-z]{8,16})$"
+                                     title="8～16文字以内で半角英数のみ入力可能です"
                                      name="loginUserId"
                                      value=""/>
                            </td>
@@ -61,8 +61,8 @@
                               <label>ログインPASS:</label>
                            </td>
                            <td>
-                              <input pattern ="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                                     title="8文字以上で1文字以上の数字、小文字アルファベット、大文字アルファベットがそれぞれ含まれていることが必要です"
+                              <input pattern ="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}"
+                                     title="8～16文字以内で1文字以上の数字、小文字アルファベット、大文字アルファベットがそれぞれ含まれていることが必要です"
                                      name="loginPassword"
                                      value=""/>
                            </td>

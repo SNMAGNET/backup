@@ -1,0 +1,7 @@
+package com.internousdev.supershop.dto;
+
+public class LoginDTO {
+
+	private
+
+}

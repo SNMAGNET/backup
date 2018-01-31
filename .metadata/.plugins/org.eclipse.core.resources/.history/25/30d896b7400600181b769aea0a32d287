@@ -1,0 +1,26 @@
+package com.internousdev.supershop.dto;
+
+public class LoginDTO {
+
+	private String loginId;
+
+	private String loginPassword;
+
+	private String userName;
+
+	private boolean loginflg = false;
+
+	public String getLoginId(){
+		return loginId;
+	}
+	public void setLoginId(String loginId){
+		this.loginId = loginId;
+	}
+	public String getLoginPassword(){
+		return loginPassword;
+	}
+	public void String setLoginPassword(loginPassword){
+		this.loginPassword = loginpassword;
+	}
+
+}
