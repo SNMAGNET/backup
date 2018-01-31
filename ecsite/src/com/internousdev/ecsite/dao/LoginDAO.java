@@ -24,7 +24,7 @@ public class LoginDAO {
 	 */
 	public LoginDTO getLoginUserInfo(String loginParam ,String loginPassword) {
 
-		String sql = "SELECT * FROM login_user_transaction where (login_id = ?  OR user_name = ?) AND login_pass = ?";
+		String sql = "SELECT * FROM login_user_transaction where ( login_id= ?  OR user_name = ?) AND login_pass = ?";
 
 
 

@@ -1,0 +1,32 @@
+package com.internousdev.supershop.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import com.internousdev.supershop.dto.LoginDTO;
+import com.internousdev.supershop.util.DBConnector;
+
+public class LoginDAO {
+
+	private DBConnector dbConnector = new DBConnector();
+
+	private Connection connection = dbConnector.getConnection();
+
+	private LoginDTO loginDTO = new LoginDTO();
+
+	public LoginDTO getLoginUserInfo(String loginParam , String loginPassword){
+
+		String sql = "SELECT * FROM login_user_transaction where (login_id = ? OR user_name=?) AND login_pass = ?";
+
+
+		try{
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, loginParam);
+			preparedStatement.setString(2, loginParam);
+			preparedStatement.setString(3, login_pass);
+
+		}
+	}
+
+
+}
