@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="リソース &apos;JavaDB01&apos; を削除" deleteContents="false" description="リソース &apos;JavaDB01&apos; を削除" element1="/JavaDB01" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1513659799615"/>&#x0A;<refactoring comment="リソース &apos;HelloJSP&apos; を削除" deleteContents="false" description="リソース &apos;HelloJSP&apos; を削除" element1="/HelloJSP" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1513671385378"/>
-</session>
